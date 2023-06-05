@@ -1,0 +1,43 @@
+import React, {Component} from 'react';
+import {connect} from 'react-redux';
+import regionActions from '../actions';
+
+class ViewAllUsers extends Component {
+    state = {
+        isLoading: true,
+        errorMessage: '',
+    };
+
+    render() {
+        const {users} = this.props;
+        return (
+            <React.Fragment>
+                <tr>
+                    <td colSpan="24" className="viewImg text-center">
+                        <div className="txt-cont">
+                            {users && users.length
+                                ? users.map((item, i) => <span key={i} className="badge-otr">
+                                <img alt="" src={item.url}/>
+                                <span className="nme"> {item.name} <span
+                                    aria-hidden="true">&times;</span></span>
+                            </span>)
+                                : <div>No users selected</div>
+
+                            }
+                        </div>
+                        <div className="view-all">
+                            View All
+                        </div>
+                    </td>
+                </tr>
+            </React.Fragment>
+        )
+    }
+}
+
+const mapStateToProps = (state) => {
+    const {regionReducer} = state;
+    return {regionReducer}
+}
+
+export default connect(mapStateToProps, {...regionActions})(ViewAllUsers);

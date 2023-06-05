@@ -1,0 +1,126 @@
+@media(max-width:1679px)
+{
+	.login-outer .login-section .login-box .img-login-section
+	{
+		height:490px;
+	}
+	.login-outer .login-section .login-box .img-login-section .logo img {
+    height: 38px;
+}
+.login-outer .login-section .login-box .content-login-section h3 {
+    font: 400 22px/34px "Poppins", sans-serif;
+    margin-bottom: 3px;
+}
+.login-outer .login-section .login-box .content-login-section h4 {
+    font: 400 16px/20px "Poppins", sans-serif;
+    max-width: 100%;
+    }
+    .login-outer .login-section .login-box .content-login-section .otr-login .login-form .form-inp .form-control {
+    height: 51px;
+    }
+    .login-outer .login-section .login-box .content-login-section .otr-login .login-form .form-inp .form-control
+    {
+    	font-size:15px;
+    }
+    .login-outer .login-section .login-box .content-login-section .otr-login .login-form .form-inp .msg
+    {
+    	top:15px;
+    }
+    .login-outer .login-section .login-box .content-login-section .otr-login .login-form .form-inp .msg img
+    {
+    	height: 12px;
+    }
+    .login-outer .login-section .login-box .content-login-section .otr-login .login-form .form-inp .lock
+    {
+    	bottom:14px;
+    }
+    .login-outer .login-section .login-box .content-login-section .otr-rem .fgt {
+    font: 400 14px/24px "Poppins", sans-serif
+    }
+    .login-outer .login-section .login-box .content-login-section .log-btn
+    {
+    	    padding: 9px 40px;
+    	    font: 400 15px/24px "Poppins", sans-serif;
+    }
+    .login-outer .login-section .login-box .content-login-section .otr-rem .container-check
+    {
+    	font: 400 14px/24px "Poppins", sans-serif;
+    	padding-left: 29px;
+    }
+    .login-outer .login-section .login-box .content-login-section .otr-rem .container-check .checkmark
+    {
+    	    height: 20px;
+    width: 20px;
+    }
+    .login-outer .login-section .login-box .content-login-section .otr-rem .container-check .checkmark:after {
+    left: 7px;
+    top: 3px;
+    }
+
+   .login-outer .login-section .login-box .content-login-section {
+    flex-grow: 1;
+    padding: 50px 65px;
+    }
+}
+@media(max-width:991px)
+{
+	.login-outer .login-section .login-box {
+    max-width: 93%;
+    flex: 0 0 93%;
+}
+.login-outer .login-section .login-box .img-login-section {
+    width: 50%;
+    }
+}
+@media(max-width:710px)
+{
+	.login-outer .login-section .login-box
+	{
+		flex-direction:column;
+	}
+	
+.login-outer .login-section .login-box .img-login-section {
+    width: 100%;
+    height: 110px;
+    background-size: cover;
+    background-position-x: 141px;
+}
+.login-outer .login-section .login-box .content-login-section {
+    flex-grow: 1;
+    padding: 35px 36px;
+}
+}
+@media(max-width:500px)
+{
+	.login-outer .login-section .login-box .content-login-section h3 {
+    font: 400 20px/28px "Poppins", sans-serif;
+}
+.login-outer .login-section .login-box .content-login-section .log-btn {
+    padding:8px 35px;
+        margin-top: 16px;
+    }
+.login-outer .login-section .login-box .content-login-section {
+    padding: 23px 36px 30px;
+}
+.login-outer .login-section .login-box .content-login-section h4 {
+    font: 400 14px/20px "Poppins", sans-serif;
+    }
+    .login-outer .login-section .login-box .img-login-section .logo {
+    padding-top: 25px;
+    padding-left: 30px;
+}
+.login-outer .login-section .login-box .img-login-section .logo img {
+    height: 31px;
+}
+}
+@media(max-width:375px)
+{
+	.login-outer .login-section .login-box .content-login-section h3 {
+    font: 400 18px/24px "Poppins", sans-serif;
+}
+
+	.login-outer .login-section .login-box .content-login-section {
+    padding: 23px 24px 30px;
+}
+
+}

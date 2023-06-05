@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="vuesax_linear_maximize" data-name="vuesax/linear/maximize" transform="translate(-620 -316)">
+    <g id="maximize">
+      <path id="Vector" d="M0,7.75A.75.75,0,0,1-.75,7V4.5A5.256,5.256,0,0,1,4.5-.75H7A.75.75,0,0,1,7.75,0,.75.75,0,0,1,7,.75H4.5A3.754,3.754,0,0,0,.75,4.5V7A.75.75,0,0,1,0,7.75Z" transform="translate(622 318)" fill="#a5a8a8"/>
+      <path id="Vector-2" data-name="Vector" d="M7,7.75A.75.75,0,0,1,6.25,7V4.5A3.754,3.754,0,0,0,2.5.75H0A.75.75,0,0,1-.75,0,.75.75,0,0,1,0-.75H2.5A5.256,5.256,0,0,1,7.75,4.5V7A.75.75,0,0,1,7,7.75Z" transform="translate(635 318)" fill="#a5a8a8"/>
+      <path id="Vector-3" data-name="Vector" d="M1.5,6.75H0a.75.75,0,0,1,0-1.5H1.5A3.754,3.754,0,0,0,5.25,1.5V0a.75.75,0,0,1,1.5,0V1.5A5.256,5.256,0,0,1,1.5,6.75Z" transform="translate(636 332)" fill="#a5a8a8"/>
+      <path id="Vector-4" data-name="Vector" d="M7,7.75H4.5A5.256,5.256,0,0,1-.75,2.5V0A.75.75,0,0,1,0-.75.75.75,0,0,1,.75,0V2.5A3.754,3.754,0,0,0,4.5,6.25H7a.75.75,0,0,1,0,1.5Z" transform="translate(622 331)" fill="#a5a8a8"/>
+      <path id="Vector-5" data-name="Vector" d="M12,4.75A.75.75,0,0,1,11.25,4V2.75H.75V4A.75.75,0,0,1,0,4.75.75.75,0,0,1-.75,4V0A.75.75,0,0,1,0-.75.75.75,0,0,1,.75,0V1.25h10.5V0a.75.75,0,0,1,1.5,0V4A.75.75,0,0,1,12,4.75Z" transform="translate(626 326)" fill="#a5a8a8"/>
+      <path id="Vector-6" data-name="Vector" d="M4,12.75H0a.75.75,0,0,1,0-1.5H1.25V.75H0A.75.75,0,0,1-.75,0,.75.75,0,0,1,0-.75H4A.75.75,0,0,1,4.75,0,.75.75,0,0,1,4,.75H2.75v10.5H4a.75.75,0,0,1,0,1.5Z" transform="translate(630 322)" fill="#a5a8a8"/>
+      <path id="Vector-7" data-name="Vector" d="M0,0H24V24H0Z" transform="translate(620 316)" fill="none" opacity="0"/>
+    </g>
+  </g>
+</svg>

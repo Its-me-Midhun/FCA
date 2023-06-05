@@ -1,0 +1,103 @@
+.sideNavTitle{
+  padding-left: 1rem;
+}
+.mainTab{
+  padding-left: 0rem;
+    /* background: aliceblue; */
+    width: 16rem;
+    height: 100vh;
+}
+.cf{
+ background: lightgrey;
+}
+.sideNavStyle{
+  border-left: 5px solid blue;
+  padding: 1rem;
+  /* background: aliceblue */
+}
+
+
+
+.main{
+  padding-top: 1rem;
+    /* background: aliceblue; */
+    width: 17rem;
+    /* border-left: 5px solid blue; */
+}
+.name{
+  padding-left: 1rem;
+  cursor: pointer;
+}
+.navTitle{
+  padding-bottom: 1rem;
+}
+.child{
+  padding-right: 30px;
+}
+.childName{
+  padding-left: 1rem;
+  cursor: pointer;
+}
+.childmain{
+  /* background: rgb(243, 238, 238); */
+  padding: 10px;
+}
+.childmain1{
+  /* background: rgb(243, 238, 238); */
+  width: 100%;
+  padding: 10px;
+}
+.childmain2{
+  padding: 10px;
+  width: 100%;
+}
+.childmain3{
+  padding: 10px;
+  width: 100%;
+}
+.childmain4{
+  padding: 10px;
+  width: 100%;
+}
+.subMain{
+  border-left: 5px solid blue
+}
+.subMainLast{
+  border-left: 5px solid blue;
+  background: rgb(243, 238, 238);
+}
+.child1{
+  padding-right: 48px;
+}
+.child2{
+  padding-right: 66px;
+}
+.child3{
+  padding-right: 84px;
+}
+.child4{
+  padding-right: 102px;
+}
+.child5{
+  padding-right: 120px;
+}
+.childspan{
+  padding-right: 67px;
+}
+.childspan1{
+  padding-right: 86px;
+}
+.childspan2{
+  padding-right: 100px;
+}
+.subMain1{
+  padding: 10px;
+  background: rgb(243, 238, 238);
+}
+.navIcon{
+  cursor: pointer;
+}
+.activeStyle{
+  background-color: #ebeef3;
+}
+

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="41.127" height="41.126" viewBox="0 0 41.127 41.126">
+  <g id="Group_978" data-name="Group 978" transform="translate(19017 -1518)">
+    <path id="Vector" d="M0,0H41.126V41.126H0Z" transform="translate(-19017 1518)" fill="none"/>
+    <g id="Group_977" data-name="Group 977" transform="translate(666.821 -445.242)">
+      <rect id="Rectangle_413" data-name="Rectangle 413" width="3" height="21" rx="1.5" transform="translate(-19656.82 1974.242)" fill="#a8d6fb"/>
+      <rect id="Rectangle_414" data-name="Rectangle 414" width="3" height="25" rx="1.5" transform="translate(-19650.82 1970.242)" fill="#a8d6fb"/>
+      <path id="Subtraction_11" data-name="Subtraction 11" d="M1.5,9.721A1.5,1.5,0,0,1,0,8.221v-7.1A9.7,9.7,0,0,0,2.662.016,1.5,1.5,0,0,1,3,.966V8.221A1.5,1.5,0,0,1,1.5,9.721Z" transform="translate(-19661.82 1985.226)" fill="#a8d6fb"/>
+      <path id="Subtraction_12" data-name="Subtraction 12" d="M1.5,9A1.5,1.5,0,0,1,0,7.5v-6a1.5,1.5,0,1,1,3,0v6A1.5,1.5,0,0,1,1.5,9Z" transform="translate(-19667.82 1986.242)" fill="#a8d6fb"/>
+      <path id="Subtraction_13" data-name="Subtraction 13" d="M1.5,4A1.5,1.5,0,0,1,0,2.5V1.492c0-.035,0-.071,0-.106L1.666,0A1.5,1.5,0,0,1,3,1.492V2.5A1.5,1.5,0,0,1,1.5,4Z" transform="translate(-19673.82 1991.24)" fill="#a8d6fb"/>
+      <path id="Ellipse_6" data-name="Ellipse 6" d="M-2.994-10A7.014,7.014,0,0,1,4.012-2.994,7.014,7.014,0,0,1-2.994,4.012,7.014,7.014,0,0,1-10-2.994,7.014,7.014,0,0,1-2.994-10Zm0,11.123A4.121,4.121,0,0,0,1.123-2.994,4.121,4.121,0,0,0-2.994-7.111,4.121,4.121,0,0,0-7.111-2.994,4.121,4.121,0,0,0-2.994,1.123Z" transform="translate(-19661.309 1982.152)" fill="#1383d9"/>
+      <path id="Line_21" data-name="Line 21" d="M-3.017-.706-4.243-1.931l2.311-2.311L-.706-3.017Z" transform="translate(-19667.75 1987.555)" fill="#1383d9"/>
+      <path id="Line_22" data-name="Line 22" d="M-10.694-3.544a1.8,1.8,0,0,1-1.277-.529,1.806,1.806,0,0,1,0-2.554l5.345-5.345a1.806,1.806,0,0,1,2.554,0,1.806,1.806,0,0,1,0,2.554L-9.418-4.073A1.8,1.8,0,0,1-10.694-3.544Z" transform="translate(-19666.102 1997.147)" fill="#1383d9"/>
+      <rect id="Rectangle_418" data-name="Rectangle 418" width="34" height="2" rx="1" transform="translate(-19679.82 1996.242)" fill="#a8d6fb"/>
+    </g>
+  </g>
+</svg>

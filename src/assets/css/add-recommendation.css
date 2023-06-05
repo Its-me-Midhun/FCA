@@ -1,0 +1,469 @@
+/*** all Mobile Screen (iphone 6,7,8) ***/
+/*** mobile Landscape Size ***/
+/*** medium devices (tablets, less than 992px) ***/
+/*** iPad in landscape ***/
+/**** smaller than desktop 1200 (devices and browsers) ***/
+/*** laptop with MDPI (medium density per inch) resolution ***/
+/*** SP developers resolution ***/
+/*** laptop with HiDPI (High Dots Per Inch) resolution ***/
+/*** WSXGA (Wide Super Extended Graphics Array) resolution ***/
+/* placeholder mixin */
+/* how to use this variabile*/
+/* .forms{
+   @include placeholder{
+    opacity: 1;color: #a5aeb7;
+  } */
+/* @include transition (.2s ease-out all); */
+/*    @include flexbox();
+    @include justify-content (center);*/
+.add-recommendation {
+  padding: 15px;
+}
+.add-recommendation .min-nav {
+  width: 100%;
+  background-color: #fff;
+  border-bottom: none !important;
+  margin-bottom: 15px;
+  padding-right: none !important;
+}
+.add-recommendation .min-nav ul {
+  width: 100%;
+  border-bottom: none !important;
+}
+.add-recommendation .min-nav ul li {
+  width: auto;
+  min-width: unset !important;
+  flex-grow: 1;
+  margin: 0px;
+  text-align: left;
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 20px;
+  border-bottom: none !important;
+}
+.add-recommendation .min-nav ul li::before {
+  display: none;
+}
+.add-recommendation .min-nav ul li.active {
+  background-image: linear-gradient(-90deg, #287cff, #65a2ff);
+  color: #fff;
+  border-radius: 0px !important;
+}
+.add-recommendation .detail-recom {
+  padding: 15px;
+}
+.add-recommendation .detail-recom .outer-rcm {
+  background-color: transparent !important;
+}
+.add-recommendation .cnt-sec {
+  width: 100% !important;
+}
+.add-recommendation .cnt-sec .row {
+  margin: 0px !important;
+}
+.add-recommendation .cnt-sec .row .back-set {
+  height: auto;
+  max-height: unset;
+  padding: 0px;
+  border: none;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+}
+.add-recommendation .cnt-sec .row .back-set .details-img-new {
+  position: relative;
+  border: 2px solid #fff;
+  margin-bottom: 15px;
+  background-color: #fff;
+  height: auto !important;
+  justify-content: center;
+  cursor: pointer;
+}
+.add-recommendation .cnt-sec .row .back-set .details-img-new img {
+  width: auto !important;
+  height: 231px !important;
+  cursor: pointer;
+}
+.add-recommendation .cnt-sec .row .template {
+  margin: 0px;
+  background: #fff;
+  padding-bottom: 15px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+.add-recommendation .cnt-sec .row .template .heading {
+  display: flex;
+  padding: 10px;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+.add-recommendation .cnt-sec .row .template .heading h3 {
+  margin-bottom: 0px;
+  letter-spacing: 0px;
+  color: #858585;
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 400;
+}
+.add-recommendation .cnt-sec .row .template .heading .btn-clear {
+  color: #767676;
+  background-color: #C1D0DE;
+  padding: 6px 20px 6px 50px !important;
+  border-radius: 5px;
+  border: none;
+  min-width: 110px;
+  transition: 0.3s;
+  font-size: 14px;
+  position: relative;
+  min-width: auto;
+}
+.add-recommendation .cnt-sec .row .template .heading .btn-clear i {
+  background: #D1DCE6;
+  padding: 10px 8px;
+  margin-right: 9px;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  font-size: 13px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.add-recommendation .cnt-sec .row .template .cnt-temp-area {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 10px;
+  max-height: 500px;
+  overflow: auto;
+  flex-grow: 1;
+}
+.add-recommendation .cnt-sec .row .template .cnt-temp-area textarea {
+  background: #e7edf3 !important;
+  height: 96%;
+  border: 1px solid #d1dae3;
+}
+.add-recommendation .cnt-sec .row .template .cnt-temp-area .form-control {
+  background: #fff !important;
+}
+.add-recommendation .cnt-sec .card {
+  margin-left: -15px;
+  border: none !important;
+  margin-bottom: 5px;
+}
+.add-recommendation .cnt-sec .card .card-header {
+  padding: 0px;
+  border: none !important;
+  background: #fff !important;
+}
+.add-recommendation .cnt-sec .card .card-header .otr-recom-div {
+  display: flex;
+  padding: 0px 0px;
+  border-bottom: 1px solid #ebebeb !important;
+}
+.add-recommendation .cnt-sec .card .card-header .otr-recom-div .basic-box {
+  padding: 10px 10px 10px 20px;
+  border-right: 1px solid #ebebeb !important;
+}
+.add-recommendation .cnt-sec .card .card-header .otr-recom-div .basic-box:last-child {
+  border-right: none !important;
+}
+.add-recommendation .cnt-sec .card .card-header .otr-recom-div .basic-box .codeOtr {
+  padding-left: 8px;
+  position: relative;
+}
+.add-recommendation .cnt-sec .card .card-header .otr-recom-div .basic-box .codeOtr h4 {
+  margin-bottom: 0px;
+  color: #7d8185;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 14px !important;
+}
+.add-recommendation .cnt-sec .card .card-header .otr-recom-div .basic-box .codeOtr h3 {
+  margin-bottom: 0px;
+  font-family: "Poppins", sans-serif;
+  margin-top: 0;
+  font-size: 13px !important;
+  line-height: 19px;
+}
+.add-recommendation .cnt-sec .card .card-header .otr-recom-div .basic-box .codeOtr::after {
+  content: "";
+  border-left: 4px solid #1382d9;
+  position: absolute;
+  width: 15px;
+  height: 41px;
+  left: -8px;
+  top: 0px;
+}
+.add-recommendation .cnt-sec .card .card-header .otr-recom-div .txt-rcm {
+  width: calc(100% / 4);
+  max-width: calc(100% / 4);
+  border-bottom: none !important;
+}
+.add-recommendation .cnt-sec .card .card-header .otr-recom-div .txt-rcm:last-child {
+  border-right: none !important;
+}
+.add-recommendation .cnt-sec .card .card-header .otr-recom-div .blue-sec {
+  background: #4B90FA;
+  display: flex;
+  flex-grow: 1;
+  height: 100%;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding: 10px 0px;
+}
+.add-recommendation .cnt-sec .card .card-header .otr-recom-div .blue-sec .p-name {
+  font-size: 14px;
+  line-height: 15px;
+  font-weight: 500;
+  color: #FFFFFF;
+}
+.add-recommendation .cnt-sec .card .card-header .otr-recom-div .blue-sec .value {
+  color: #FFFFFF;
+  margin: 5px 0px;
+  width: 100%;
+  text-align: center;
+  font-size: 18px !important;
+  line-height: 18px;
+  font-weight: 500 !important;
+}
+.add-recommendation .cnt-sec .card .card-header .btn-link {
+  letter-spacing: 0px;
+  color: #4B90FA;
+  text-transform: capitalize;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 600 !important;
+  text-decoration: none;
+  padding: 5px 15px 5px 15px;
+  text-align: left;
+  margin: 0px !important;
+  border: none !important;
+  border-right: 1px solid #ebebeb !important;
+  flex: 0 0 25%;
+  max-width: 25%;
+}
+@media (max-width: 1679px) {
+  .add-recommendation .cnt-sec .card .card-header .btn-link {
+    padding: 5px 10px 5px 10px;
+  }
+}
+.add-recommendation .cnt-sec .card .card-header .btn-link::before {
+  content: "";
+  width: 15px;
+  height: 15px;
+  background-image: url(../img/down-arrow.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: block;
+  position: absolute;
+  right: 12px;
+  top: 15px;
+  transform: rotate(180deg) !important;
+  z-index: 10;
+}
+.add-recommendation .cnt-sec .card .card-header .btn-link[aria-expanded=false]::before {
+  transform: rotate(0deg) !important;
+}
+.add-recommendation .cnt-sec .card .card-body {
+  padding: 0px;
+}
+.add-recommendation .cnt-sec .card .card-body .outer-rcm {
+  background-color: #fff !important;
+  margin-top: 0px !important;
+}
+.add-recommendation .cnt-sec .card .card-body .basic-box {
+  background-color: transparent !important;
+}
+.add-recommendation .cnt-sec .card .card-body .heading {
+  display: flex;
+  padding: 10px;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+.add-recommendation .cnt-sec .card .card-body .heading h3 {
+  margin-bottom: 0px;
+  letter-spacing: 0px;
+  color: #000000;
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 400;
+}
+.add-recommendation .cnt-sec .card .card-body .heading .btn-clear {
+  color: #767676;
+  background-color: #C1D0DE;
+  padding: 6px 20px 6px 35px !important;
+  border-radius: 5px;
+  border: none;
+  min-width: 110px;
+  transition: 0.3s;
+  font-size: 14px;
+  position: relative;
+  min-width: auto;
+}
+.add-recommendation .cnt-sec .card .card-body .heading .btn-clear i {
+  background: #D1DCE6;
+  padding: 10px 8px;
+  margin-right: 9px;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  font-size: 13px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.add-recommendation .cnt-sec .card .card-body .outer-rcm .txt-rcm {
+  width: calc(100% / 4);
+  max-width: calc(100% / 4);
+  position: relative;
+}
+.add-recommendation .cnt-sec .card .card-body .outer-rcm .txt-rcm.w-100 {
+  width: 100%;
+  max-width: 100%;
+}
+.add-recommendation .cnt-sec .card .card-body .outer-rcm .txt-rcm h3 {
+  margin-top: 10px;
+}
+.add-recommendation .cnt-sec .card .card-body .outer-rcm .basic-box {
+  background: #fff;
+  padding-right: 10px;
+}
+.add-recommendation .cnt-sec .card .card-body .outer-rcm .basic-box h4 {
+  font-size: 14px;
+}
+.add-recommendation .cnt-sec .card .card-body .outer-rcm .basic-box h3 {
+  font-size: 13px !important;
+  line-height: 19px !important;
+}
+.add-recommendation .cnt-sec .card .card-body.add-sec .outer-rcm .txt-rcm {
+  width: calc(100% / 5);
+  max-width: calc(100% / 5);
+}
+.add-recommendation .cnt-sec .card .card-body.add-sec .outer-rcm .blue-sec {
+  background: #4B90FA;
+  display: flex;
+  flex-grow: 1;
+  height: 100%;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding: 15px 0px;
+}
+.add-recommendation .cnt-sec .card .card-body.add-sec .outer-rcm .blue-sec .p-name {
+  font-size: 14px;
+  line-height: 15px;
+  font-weight: 500;
+  color: #FFFFFF;
+}
+.add-recommendation .cnt-sec .card .card-body.add-sec .outer-rcm .blue-sec .value {
+  color: #FFFFFF;
+  margin: 5px 0px;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 500;
+}
+.add-recommendation .cnt-sec .card .card-body.add-sec .outer-rcm .icn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.add-recommendation .cnt-sec .card .card-body.add-sec .outer-rcm .icn .btn-add {
+  outline: none;
+  box-shadow: none;
+}
+
+.recom-top-nav-sec {
+  display: flex;
+  justify-content: space-between;
+  margin-top: -15px;
+  padding-bottom: 8px;
+}
+.recom-top-nav-sec .ed-dl {
+  margin-top: 0px !important;
+  padding-bottom: 0px !important;
+  padding-right: 0px !important;
+}
+.recom-top-nav-sec .check-area-top label {
+  margin-right: 10px;
+  margin-bottom: 0px;
+  font: 400 13px/20px "Poppins", sans-serif;
+  background: #dee8f1;
+  border-radius: 4px;
+  color: #6c6060;
+  padding: 1px 7px;
+  font-size: 13px;
+}
+.recom-top-nav-sec .check-area-top label .label-txt {
+  font-weight: 500;
+}
+.recom-top-nav-sec .check-area-top label .label-detl {
+  color: #333;
+  font-weight: 600;
+}
+.recom-top-nav-sec .budget-pr .container-check {
+  color: #c6c1c1;
+  font: 400 14px/20px "Poppins", sans-serif;
+  margin-bottom: 0px;
+  padding-left: 25px;
+}
+.recom-top-nav-sec .budget-pr .checkmark {
+  height: 17px;
+  width: 17px;
+}
+.recom-top-nav-sec .budget-pr .container-check .checkmark:after {
+  left: 7px;
+  top: 2px;
+}
+
+.additional-dtl.addition-edit .txt-rcm-full-w {
+  width: 60% !important;
+  max-width: 76% !important;
+  flex-direction: column;
+}
+.additional-dtl.addition-edit .txt-rcm-full-w .heading {
+  padding: 5px 0px !important;
+}
+.additional-dtl.addition-edit .txt-rcm-full-w .heading h3 {
+  font-size: 16px !important;
+}
+@media (max-width: 1679px) {
+  .additional-dtl.addition-edit .txt-rcm-full-w .heading h3 {
+    font-size: 14px !important;
+  }
+}
+
+.region-mng .tab-active .basic-dtl-otr .basic-box:nth-child(3) {
+  border-right: 1px solid #d9dee3 !important;
+}
+
+.add-recommendation .cnt-sec .card .card-body .heading .btn-clear {
+  padding: 1px 8px 1px 30px !important;
+}
+
+.add-recommendation .cnt-sec .card .card-body .heading .btn-clear i {
+  padding: 6px 6px !important;
+}
+
+.region-mng .tab-active .basic-dtl-otr .basic-box {
+  padding: 13px 20px !important;
+}
+
+.budget-pr {
+  margin-right: 10px;
+}
+
+.budget-pr .container-check:hover {
+  color: #2b7eff;
+}
+
+/*# sourceMappingURL=add-recommendation.css.map */

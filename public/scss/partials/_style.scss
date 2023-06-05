@@ -1,0 +1,207 @@
+.login-outer
+{
+	    background: url(../img/login-bg.png) #f0f1f3;
+    height: 100vh;
+        background-size: cover;
+        .login-section
+        {
+        	    display: flex;
+		    align-items: center;
+		    justify-content: center;
+		    height: 100%;
+
+		    .login-box
+		    {
+		    	    background: #fff;
+		    	        max-width: 1175px;
+    			
+    			.img-login-section
+    			{
+    				width:524px;
+    				 background:url(../img/01.png) #e5e9eb center bottom no-repeat;
+    				 height:570px;
+    				 .logo
+    				 {
+    				 	        padding-top: 41px;
+    							padding-left: 48px;
+    				 	img
+    				 	{
+    				 		height:45px;
+    				 	}
+    				 }
+    			}
+    			.content-login-section
+    			{
+    				flex-grow:1;
+    				padding:50px 86px;
+    				display:flex;
+    				align-items:center;
+    				.line
+    				{
+    					display:flex;
+    					flex-direction:row;
+    					margin-top:25px;
+    					.blue-line
+    					{
+    						border-bottom:5px solid #448cff;
+    						border-radius: 23px;
+    					}
+    					.white-line
+    					{
+    						    border-bottom: 5px solid #e2e1e4;
+    							border-radius: 23px;
+    							margin-left:15px;
+    					}
+    				}
+    				.log-btn
+    				{
+    					   border: none;
+						    padding: 10px 40px;
+						    margin-top: 25px;
+						    background-image: linear-gradient(-90deg, #287cff, #65a2ff);
+						    color: #fff;
+						    border-radius: 5px;
+						     font: 400 17px/24px "Poppins", sans-serif;
+    				}
+    				.otr-rem
+    				{
+    					    margin-top: 15px;
+    					justify-content: space-between;
+    					
+    					.fgt
+    					{
+    						 font: 400 17px/24px "Poppins", sans-serif;
+    						 color:#696969;
+    					}
+    				}
+    				.otr-login
+    				{
+    					.login-form
+    					{
+    						.form-inp
+    						{
+    							margin-top:35px;
+    							.form-control
+    							{
+    								    height: 55px;
+    									border: 1px solid #e1e1e1;
+    									border-bottom:0px;
+    									    font: 400 17px/24px "Poppins", sans-serif;
+    									        border-top-left-radius:8px;
+    										border-top-right-radius: 8px;
+    										    outline: 0;
+    									box-shadow: none;
+    									    padding-left: 40px;
+
+    							}
+    							.msg
+    							{
+    								    position: absolute;
+									    top: 17px;
+									    padding-left: 13px;
+    							}
+    							.lock
+    							{
+    								 position: absolute;
+									    bottom: 17px;
+									    padding-left: 13px;
+    							}
+    							.psw
+    							{
+    								border-bottom:1px solid #e1e1e1;
+    								border-top-left-radius: 0;
+								    border-top-right-radius: 0;
+								    border-bottom-left-radius: 8px;
+								    border-bottom-right-radius: 8px;
+    							}
+    						}
+    					}	
+    				}
+    				h3
+    				{
+    					font:400 26px/34px 'Poppins', sans-serif;
+    					margin-bottom:8px;
+    					span
+    					{
+    						font-weight:600;
+    						color:#287bfe;
+    					}
+    				}
+    				h4
+    				{
+    					font:400 18px/24px 'Poppins', sans-serif;
+    					color:#717172;
+    				}
+    			}
+		    }
+        }
+
+}
+/* The container */
+.container-check {
+  display: block;
+  position: relative;
+  padding-left: 32px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font:400 17px/24px 'Poppins', sans-serif;
+  color:#696969;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.container-check input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+     height: 24px;
+    width: 24px;
+  background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.container-check:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container-check input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container-check input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container-check .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 1px 1px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="18.286" height="18.286" viewBox="0 0 18.286 18.286">
+  <g id="vuesax_bold_chart" data-name="vuesax/bold/chart" transform="translate(-556 -252)">
+    <g id="chart" transform="translate(556 252)">
+      <path id="Vector" d="M15.809,1.143H.571A.576.576,0,0,1,0,.571.576.576,0,0,1,.571,0H15.809a.576.576,0,0,1,.571.571A.576.576,0,0,1,15.809,1.143Z" transform="translate(0.952 15.619)" fill="#1383d9"/>
+      <path id="Vector-2" data-name="Vector" d="M0,1.524V15.238H3.429V1.524C3.429.686,3.086,0,2.057,0H1.371C.343,0,0,.686,0,1.524Z" transform="translate(7.429 1.524)" fill="#1383d9"/>
+      <path id="Vector-3" data-name="Vector" d="M0,1.524v9.143H3.048V1.524C3.048.686,2.743,0,1.829,0h-.61C.3,0,0,.686,0,1.524Z" transform="translate(2.286 6.095)" fill="#1383d9"/>
+      <path id="Vector-4" data-name="Vector" d="M0,1.524V6.857H3.048V1.524C3.048.686,2.743,0,1.829,0h-.61C.3,0,0,.686,0,1.524Z" transform="translate(12.952 9.905)" fill="#1383d9"/>
+      <path id="Vector-5" data-name="Vector" d="M0,0H18.286V18.286H0Z" transform="translate(18.286 18.286) rotate(180)" fill="none" opacity="0"/>
+    </g>
+  </g>
+</svg>

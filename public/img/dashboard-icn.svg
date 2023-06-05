@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="41.126" height="41.126" viewBox="0 0 41.126 41.126">
+  <g id="vuesax_bold_lifebuoy" data-name="vuesax/bold/lifebuoy" transform="translate(-108 -252)">
+    <g id="lifebuoy" transform="translate(108 252)">
+      <path id="Vector" d="M9.476,11.173A7.693,7.693,0,0,1,10.9,6.734L4.164,0a17.1,17.1,0,0,0-.017,22.345L10.9,15.611A7.693,7.693,0,0,1,9.476,11.173Z" transform="translate(3.376 9.391)" fill="#1383d9"/>
+      <path id="Vector-2" data-name="Vector" d="M11.207,9.425a7.693,7.693,0,0,1,4.438,1.422l6.683-6.683A17.075,17.075,0,0,0,0,4.147l6.717,6.734A7.679,7.679,0,0,1,11.207,9.425Z" transform="translate(9.356 3.427)" fill="#a8d6fb"/>
+      <path id="Vector-3" data-name="Vector" d="M6.683,0,0,6.666a7.679,7.679,0,0,1,1.457,4.49A7.679,7.679,0,0,1,0,15.645l6.683,6.683A17.045,17.045,0,0,0,10.83,11.156,17,17,0,0,0,6.683,0Z" transform="translate(26.818 9.408)" fill="#1383d9"/>
+      <path id="Vector-4" data-name="Vector" d="M11.224,1.457A7.679,7.679,0,0,1,6.734,0L0,6.734a17.045,17.045,0,0,0,11.173,4.147A16.9,16.9,0,0,0,22.345,6.717L15.662.034A7.693,7.693,0,0,1,11.224,1.457Z" transform="translate(9.339 26.818)" fill="#a8d6fb"/>
+      <path id="Vector-5" data-name="Vector" d="M0,0H41.126V41.126H0Z" fill="none" opacity="0"/>
+    </g>
+  </g>
+</svg>

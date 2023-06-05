@@ -1,0 +1,88 @@
+/*** all Mobile Screen (iphone 6,7,8) ***/
+/*** mobile Landscape Size ***/
+/*** medium devices (tablets, less than 992px) ***/
+/*** iPad in landscape ***/
+/**** smaller than desktop 1200 (devices and browsers) ***/
+/*** laptop with MDPI (medium density per inch) resolution ***/
+/*** SP developers resolution ***/
+/*** laptop with HiDPI (High Dots Per Inch) resolution ***/
+/*** WSXGA (Wide Super Extended Graphics Array) resolution ***/
+.right-panel-section.expandnavbarr {
+  margin-left: 0px !important;
+}
+
+.policy .banner {
+  width: 100%;
+  background-image: url(../img/policy.png);
+  background-size: cover;
+  background-size: 100%;
+  background-position: center;
+  height: 185px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+.policy .banner h3 {
+  font-size: 25px;
+  line-height: normal;
+  font-weight: bold;
+  color: #fff;
+  text-transform: capitalize;
+  margin-bottom: 0px;
+  font-family: "Poppins", sans-serif;
+}
+.policy .content {
+  padding: 50px 40px 20px 40px;
+}
+.policy .content .content-hed {
+  margin-bottom: 10px;
+  font-size: 20px;
+  line-height: normal;
+  font-weight: 600;
+  color: #000;
+  text-transform: capitalize;
+  font-family: "Poppins", sans-serif;
+}
+.policy .content .contents {
+  font-size: 15px;
+  line-height: 30px;
+  font-weight: 400;
+  text-transform: capitalize;
+  font-family: "Poppins", sans-serif;
+}
+.policy .content .info h3 {
+  font-size: 18px;
+  line-height: normal;
+  font-weight: 600;
+  color: #000;
+  text-transform: capitalize;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 0px;
+}
+.policy .content .info .phone {
+  font-size: 15px;
+  line-height: normal;
+  font-weight: 400;
+  color: #000;
+  text-transform: capitalize;
+  font-family: "Poppins", sans-serif;
+}
+.policy .content .info .phone a {
+  text-decoration: none;
+  color: #000;
+}
+.policy .content .info .email {
+  font-size: 15px;
+  line-height: normal;
+  font-weight: 400;
+  color: #000;
+  text-transform: capitalize;
+  font-family: "Poppins", sans-serif;
+}
+.policy .content .info .email a {
+  text-decoration: none;
+  color: #000;
+}
+
+/*# sourceMappingURL=policy.css.map */

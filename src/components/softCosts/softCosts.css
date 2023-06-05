@@ -1,0 +1,73 @@
+.filter-sec-plan.col-md-12 {
+    justify-content: end;
+}
+.filter-sec-plan .form-group {
+    display: flex;
+    align-items: center;
+}
+.filter-sec-plan .form-group label {
+    margin-bottom: 0;
+    font: 500 13px/20px "Poppins", sans-serif;
+    color: #6a6262;
+    padding-right: 10px;
+}
+.filter-sec-plan .form-group .form-control {
+    font: 500 13px/20px "Poppins", sans-serif;
+}
+
+.table-scroll.table-plan thead th {
+    z-index: 5 !important;
+}
+tr.blue-highlight-row th {
+    color: #336ca5 !important;
+    font-weight: 600 !important;
+}
+tr.table-head-title th {
+    font-weight: 600 !important;
+}
+.text-seprte {
+    display: flex;
+    justify-content: space-between;
+}
+.text-seprte input {
+    width: 53px !important;
+    padding-left: 8px;
+}
+.dashboard-outer .outer-detail .right-panel-section .dtl-sec .table-section .table-common tr.highlight-bg-row th {
+    background: #eaf7ff !important;
+}
+.efci-otr .table-section.build-fci.build-efci tr.blue-highlight-row.brd-gap th {
+    border-bottom: 12px solid #dee8f1 !important;
+}
+tr.highlight-bg-row th .text-seprte input {
+    background: #fff;
+}
+.text-seprte input {
+    width: 53px !important;
+    padding-left: 8px;
+    background: #e3ecf6;
+    border: none;
+    height: 32px;
+    box-shadow: none;
+    font: 500 14px/20px "Poppins", sans-serif;
+    color: #7f7c7c;
+    white-space: nowrap;
+    border-radius: 3px;
+}
+.table-section.table-plan.table-scroll.build-fci.fc-capital-nw.build-efci th.build-add:nth-child(2) {
+    position: sticky;
+    left: 0;
+    z-index: 100 !important;
+    white-space: normal !important;
+}
+.soft-cost-excel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 8px;
+    margin-right: 2px;
+    background: white;
+    padding: 3px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
