@@ -1,0 +1,131 @@
+.notification {
+  width: 300px;
+  top: 43px;
+  border: none;
+  box-shadow: 0px 3px 24px rgba(143, 162, 180, 0.2);
+  border-radius: 5px;
+}
+.notification::before {
+  position: absolute;
+  display: inline-block;
+  content: "";
+  border: 8px solid transparent;
+  border-bottom-color: white;
+  top: -15px;
+  left: unset;
+  right: 56px;
+}
+@media (min-width: 991px) {
+  .notification {
+    left: unset;
+    right: -50px;
+  }
+}
+.notification .close-notify {
+  position: absolute;
+  right: 10px;
+  top: 3px;
+  cursor: pointer;
+}
+.notification .head {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #DEE8F1;
+  padding-bottom: 5px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.notification .head h3 {
+  color: #000000;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "Poppins" sans-serif;
+  line-height: 21px;
+  margin: 0px;
+}
+.notification .head .btn-see {
+  color: #2E80FF;
+  font-size: 10px;
+  font-weight: 500;
+  font-family: "Poppins" sans-serif;
+  line-height: 16px;
+  padding: 0px;
+}
+.notification .cnt-sec {
+  display: flex;
+  flex-direction: column;
+  max-height: 450px;
+  overflow: auto;
+}
+.notification .cnt-sec .itm {
+  display: flex;
+  border-bottom: 1px solid #DEE8F1;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  position: relative;
+}
+.notification .cnt-sec .itm:last-child {
+  border-bottom: none !important;
+}
+.notification .cnt-sec .itm .icon {
+  background: rgba(133, 156, 177, 0.3019607843) !important;
+  width: 32px;
+  height: 32px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-right: 10px;
+  position: relative;
+  flex-shrink: 0;
+}
+.notification .cnt-sec .itm .icon::before {
+  content: "";
+  bottom: -1px;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+  background: #859CB1;
+  border-radius: 100%;
+  right: 3px;
+}
+.notification .cnt-sec .itm .icon img {
+  width: 10px;
+}
+.notification .cnt-sec .itm .icon.unred {
+  background: #DBE9FF !important;
+}
+.notification .cnt-sec .itm .icon.unred::before {
+  background: #3C89FF;
+}
+.notification .cnt-sec .itm .cnt-area {
+  width: calc(100% - 42px);
+}
+.notification .cnt-sec .itm .cnt-area h3 {
+  color: #000000;
+  font-size: 12px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 0px;
+  padding-right: 12px;
+}
+.notification .cnt-sec .itm .cnt-area p {
+  font-size: 10px;
+  font-weight: 300;
+  font-family: "Poppins", sans-serif;
+  line-height: 14px;
+  margin-bottom: 0px;
+  color: #768EA4;
+}
+.notification .cnt-sec .itm .cnt-area span {
+  font-size: 10px;
+  font-weight: 300;
+  font-family: "Poppins", sans-serif;
+  line-height: 16px;
+  margin-bottom: 0px;
+  color: #B4B4B4;
+}
+
+/*# sourceMappingURL=notification.css.map */

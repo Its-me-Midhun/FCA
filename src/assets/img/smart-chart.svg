@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="41" height="41" viewBox="0 0 41 41">
+  <defs>
+    <clipPath id="clip-_02">
+      <rect width="41" height="41"/>
+    </clipPath>
+  </defs>
+  <g id="_02" data-name="02" clip-path="url(#clip-_02)">
+    <g id="donut-chart_1_" data-name="donut-chart (1)" transform="translate(3 3)">
+      <g id="Group_4" data-name="Group 4" transform="translate(0 0)">
+        <g id="Group_3" data-name="Group 3" transform="translate(0 0)">
+          <path id="Path_4" data-name="Path 4" d="M.009,15.68a1.054,1.054,0,0,0,1.046,1.184h4.29a1.054,1.054,0,0,0,1.04-.88,11.7,11.7,0,0,1,9.6-9.6,1.054,1.054,0,0,0,.88-1.04V1.055A1.054,1.054,0,0,0,15.68.009h0A18.064,18.064,0,0,0,.009,15.68Z" transform="translate(0 0)" fill="#a0cef5"/>
+          <path id="Path_5" data-name="Path 5" d="M24.714,278.63a11.684,11.684,0,0,1-18.33-7.592,1.054,1.054,0,0,0-1.04-.88H1.055a1.054,1.054,0,0,0-1.046,1.184h0a18.076,18.076,0,0,0,17.92,15.816,17.886,17.886,0,0,0,11.081-3.8,1.054,1.054,0,0,0,.1-1.578l-3.035-3.035A1.054,1.054,0,0,0,24.714,278.63Z" transform="translate(0 -251.167)" fill="#a0cef5"/>
+          <path id="Path_6" data-name="Path 6" d="M271.037,6.385a11.684,11.684,0,0,1,7.592,18.33,1.054,1.054,0,0,0,.113,1.358l3.035,3.035a1.054,1.054,0,0,0,1.578-.1h0a17.886,17.886,0,0,0,3.8-11.081A18.076,18.076,0,0,0,271.342.009h0a1.054,1.054,0,0,0-1.184,1.046v4.29a1.054,1.054,0,0,0,.88,1.04Z" transform="translate(-251.166 0)" fill="#a0cef5"/>
+        </g>
+      </g>
+      <g id="Group_5" data-name="Group 5" transform="translate(10.547 10.683)">
+        <path id="Path_7" data-name="Path 7" d="M232.473,151.964h-1.407a1.054,1.054,0,0,0-1.054,1.054v12.3h3.516v-12.3A1.054,1.054,0,0,0,232.473,151.964Z" transform="translate(-224.39 -151.964)" fill="#3e9ef0"/>
+        <path id="Path_8" data-name="Path 8" d="M310.024,202.507h2.461a1.054,1.054,0,0,0,1.054-1.054v-8.435a1.054,1.054,0,0,0-1.054-1.054h-2.461Z" transform="translate(-298.778 -189.151)" fill="#3e9ef0"/>
+        <path id="Path_9" data-name="Path 9" d="M153.551,231.963h-2.459a1.054,1.054,0,0,0-1.054,1.054v5.624a1.054,1.054,0,0,0,1.054,1.054h2.459Z" transform="translate(-150.038 -226.339)" fill="#3e9ef0"/>
+      </g>
+    </g>
+  </g>
+</svg>

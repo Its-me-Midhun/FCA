@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta http-equiv="x-ua-compatible" content="ie=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no" />
+        <meta name="format-detection" content="telephone=no" />
+        <title>FCA</title>
+        <link rel="icon" type="image/x-icon" href="/img/fav.png" />
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="/css/bootstrap/bootstrap.css" />
+        <link rel="stylesheet" href="/css/main.css" />
+        <link rel="stylesheet" href="/css/custom.css" />
+        <link href="https://fonts.googleapis.com/css?family=Poppins:100,300,400,500,600,700&display=swap" rel="stylesheet" />
+        <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+            integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+            crossorigin="anonymous"
+        />
+    </head>
+
+    <body>
+        <noscript>You need to enable JavaScript to run this app.</noscript>
+        <div id="root"></div>
+        <div id="commonModal"></div>
+        <div id="sucess-alert"></div>
+
+        <!-- <footer>
+            <div class="ft-txt">© 2020 FCA All Rights Reserved.</div>
+        </footer> -->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
+        <script src="/js/vendor/popper.min.js"></script>
+        <script src="/js/vendor/bootstrap.min.js"></script>
+        <!-- <script src="/js/vendor/highcharts.min.js"></script> -->
+        <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script> -->
+        <script
+            type="text/javascript"
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBknjmLFtejuWK1m_czDlv6LAn0D_HfnrU&libraries=places"
+        ></script>
+        <!-- <script type="text/javascript" src="/components/highstock/highstock.js"></script>
+    <script type="text/javascript" src="https://code.highcharts.com/highcharts.js"></script>
+    <script type="text/javascript" src="https://code.highcharts.com/modules/drilldown.js"></script>
+    <script type="text/javascript" src="https://code.highcharts.com/highcharts-3d.js"></script>
+    <script type="text/javascript" src="https://code.highcharts.com/modules/data.js"></script>
+    <script type="text/javascript" src="https://code.highcharts.com/highcharts-more.js"></script> -->
+        <!-- <script type="text/javascript" src="https://blacklabel.github.io/custom_events/js/customEvents.js"></script> -->
+        <!-- <script type="text/javascript" src="https://code.highcharts.com/highcharts.js"></script> -->
+        <!-- <script type="text/javascript" src="https://code.highcharts.com/modules/series-label.js"></script>
+    <script type="text/javascript" src="https://code.highcharts.com/modules/data.js"></script>
+    <script type="text/javascript" src="https://code.highcharts.com/highcharts-3d.js"></script>
+    <script type="text/javascript" src="https://code.highcharts.com/modules/heatmap.js"></script>
+    <script type="text/javascript" src="https://code.highcharts.com/highcharts-more.js"></script>
+    <script type="text/javascript" src="https://code.highcharts.com/modules/funnel.js"></script>
+    <script type="text/javascript" src="https://code.highcharts.com/modules/exporting.js"></script>
+    <script type="text/javascript" src="https://code.highcharts.com/modules/heatmap.js"></script>
+    <script type="text/javascript" src="https://code.highcharts.com/modules/treemap.js"></script>
+    <script type="text/javascript" src="https://code.highcharts.com/modules/drilldown.js"></script>
+    <script type="text/javascript" src="https://code.highcharts.com/modules/solid-gauge.js"></script> -->
+        <script>
+            (function () {
+                var s = document.createElement("script");
+                var h = document.querySelector("head") || document.body;
+                s.src = "https://acsbapp.com/apps/app/dist/js/app.js";
+                s.async = true;
+                s.onload = function () {
+                    acsbJS.init({
+                        statementLink: "",
+                        footerHtml: "",
+                        hideMobile: false,
+                        hideTrigger: false,
+                        disableBgProcess: false,
+                        language: "en",
+                        position: "right",
+                        leadColor: "#146FF8",
+                        triggerColor: "#146FF8",
+                        triggerRadius: "50%",
+                        triggerPositionX: "right",
+                        triggerPositionY: "bottom",
+                        triggerIcon: "people",
+                        triggerSize: "small",
+                        triggerOffsetX: 30,
+                        triggerOffsetY: 10,
+                        mobile: {
+                            triggerSize: "small",
+                            triggerPositionX: "right",
+                            triggerPositionY: "bottom",
+                            triggerOffsetX: 20,
+                            triggerOffsetY: 20,
+                            triggerRadius: "20"
+                        }
+                    });
+                    () => {
+                        console.log("enter", document.querySelector(".acsb-widget-blocker .highcharts-series-group"));
+                        document.querySelector(".acsb-widget-blocker .highcharts-series-group").removeAttr("transform");
+                    };
+                };
+                h.appendChild(s);
+            })();
+        </script>
+        <script>
+            //  $(".acsb-trigger-icon").on('click', function() {
+            //         $("body.acsb-stop-animations svg").find("g").removeAttr("transform");
+            //         console.log("dddd")
+            //     });
+            // document.querySelector(".acsb-trigger-icon").addEventListener('click', function() {
+            //         // document.querySelector("body.acsb-stop-animations svg").querySelector("g").removeAttr("transform");
+            //         console.log("dddd")
+            //     });
+            // document
+            //     .querySelector(".acsb-trigger-icon")
+            //     .addEventListener("click", () =>
+
+            //     document.querySelector("body.acsb-stop-animations svg").querySelector("g").removeAttr("transform"));
+            // document.querySelector("body").addEventListener("click", () =>
+
+            // console.log("first")
+            // );
+            // document.querySelector(".acsb-widget-blocker .highcharts-series-group").removeAttr("transform")
+            // document.querySelector("body").addEventListener("click", () =>
+            //     // document
+            //     //   .querySelector("body.acsb-stop-animations svg")
+            //     //   .querySelector("g")
+            //     //   .removeAttr("transform")
+
+            // );
+
+            //  document.querySelector(document).ready(function(){
+
+            //     document.querySelector("#btn_1").addEventListener('click', function() {
+            //     document.querySelector("svg").querySelector("g").removeAttr("transform");
+            //   });
+            // });
+        </script>
+        <script
+            type="text/javascript"
+            src="https://hplfm.atlassian.net/s/d41d8cd98f00b204e9800998ecf8427e-T/1jmxwi/b/8/c95134bc67d3a521bb3f4331beb9b804/_/download/batch/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector.js?locale=en-US&collectorId=234a3770"
+        ></script>
+        <script type="text/javascript">
+            window.ATL_JQ_PAGE_PROPS = {
+                triggerFunction: function (showCollectorDialog) {
+                    $(document).keydown(function (event) {
+                        // Check if the key combination CRTL + ALT + B was clicked
+                        if (event.ctrlKey && event.altKey && event.which == 66) {
+                            // If the key combination was clicked, execute the trigger function
+                            showCollectorDialog();
+                        }
+                    });
+                },
+                fieldValues: {
+                    // Set the values for your fields here
+                    // Field names and values should be specified as key-value pairs
+                    // For example:
+                    fullname: "Noam Aberbach",
+                    email: "noam.aberbach@hplfm.com"
+                },
+                additionalFields: {
+                    // Set the values for your additional fields here
+                    // Field names and values should be specified as key-value pairs
+                    // For example:
+                    environment: "Custom field value"
+                }
+            };
+        </script>
+    </body>
+</html>

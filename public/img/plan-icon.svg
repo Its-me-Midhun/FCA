@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="vuesax_linear_gallery" data-name="vuesax/linear/gallery" transform="translate(-364 -252)">
+    <g id="gallery">
+      <g id="Vector" transform="translate(364 252)" fill="none" opacity="0">
+        <path d="M0,0H24V24H0Z" stroke="none"/>
+        <path d="M 0.5 0.5 L 0.5 23.5 L 23.5 23.5 L 23.5 0.5 L 0.5 0.5 M 0 0 L 24 0 L 24 24 L 0 24 L 0 0 Z" stroke="none" fill="#000"/>
+      </g>
+      <g id="plan-idea-svgrepo-com" transform="translate(360.337 254.575)">
+        <path id="Path_4" data-name="Path 4" d="M19.772,0H7.141a.478.478,0,0,0-.478.478V18.372a.478.478,0,0,0,.478.478H19.772a.478.478,0,0,0,.478-.478V.478A.478.478,0,0,0,19.772,0Zm-.478,17.893H7.62V.957H19.294Z" stroke="#000" stroke-width="0.5"/>
+        <path id="Path_5" data-name="Path 5" d="M40.141,36.493h8.42a.478.478,0,0,0,.478-.478V33.478A.478.478,0,0,0,48.562,33h-8.42a.478.478,0,0,0-.478.478v2.536A.478.478,0,0,0,40.141,36.493Zm.478-2.536h7.464v1.579H40.62Z" transform="translate(-30.895 -30.895)" stroke="#000" stroke-width="0.5"/>
+        <path id="Path_13" data-name="Path 13" d="M237.664,52.064a.479.479,0,0,0,.051.214l1.154,2.308a.478.478,0,0,0,.856,0l1.154-2.308a.479.479,0,0,0,.051-.214V40.728a.478.478,0,0,0-.478-.478h-2.308a.478.478,0,0,0-.478.478Zm.957-.478v-8.84h1.351v8.84h-1.351Zm1.351-10.378v.581h-1.351v-.581ZM239.3,53.3l-.38-.759h.759Z" transform="translate(-216.265 -37.682)" stroke="#000" stroke-width="0.5"/>
+        <line id="Line_7" data-name="Line 7" x2="7" transform="translate(9.163 7.925)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="1.5"/>
+        <line id="Line_8" data-name="Line 8" x2="7" transform="translate(9.163 10.925)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="1.5"/>
+        <line id="Line_9" data-name="Line 9" x2="7" transform="translate(9.163 13.925)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="1.5"/>
+      </g>
+    </g>
+  </g>
+</svg>

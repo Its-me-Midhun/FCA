@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="204" height="190" viewBox="0 0 204 190">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.5" gradientTransform="translate(0 0.211) scale(1 0.578)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#7d90a2" stop-opacity="0.502"/>
+      <stop offset="0.435" stop-color="#8295a8" stop-opacity="0.149"/>
+      <stop offset="1" stop-color="#899caf" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <g id="Group_17" data-name="Group 17" transform="translate(-871 -382)">
+    <g id="Group_16" data-name="Group 16" transform="translate(0 -32)">
+      <rect id="Rectangle_32" data-name="Rectangle 32" width="178" height="141" rx="21" transform="translate(871 414)" fill="#fff"/>
+      <circle id="Ellipse_3" data-name="Ellipse 3" cx="28" cy="28" r="28" transform="translate(1019 442)" fill="#2196f3"/>
+      <ellipse id="Ellipse_4" data-name="Ellipse 4" cx="88" cy="6.5" rx="88" ry="6.5" transform="translate(871 591)" fill="url(#radial-gradient)"/>
+      <g id="button" transform="translate(1000.531 460.02)">
+        <g id="file-download" transform="translate(38.25)">
+          <path id="Path_7" data-name="Path 7" d="M54.688,7.045h-4.7V0H42.946V7.045h-4.7l8.219,8.219ZM38.25,17.612V19.96H54.688V17.612Z" transform="translate(-38.25)" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+    <g id="happiness" transform="translate(348.421 -42.922)">
+      <path id="Path_8" data-name="Path 8" d="M579.2,541.741c.294-.211.412-.369.529-.422,1.882-1.106,3.823-2.213,5.705-3.32,7.411,9.274,17.292,14.6,30.115,14.543,12.822,0,22.7-5.217,30.115-14.543,2.059,1.212,4.058,2.371,6.294,3.688-8.94,11.381-21,17.6-36.408,17.652C600.08,559.34,588.14,552.912,579.2,541.741Z" transform="translate(-4 -31.419)" fill="#66798b"/>
+      <path id="Path_9" data-name="Path 9" d="M589.6,480.445a6.718,6.718,0,1,1,13.437,0,6.713,6.713,0,0,1-6.745,6.692A6.635,6.635,0,0,1,589.6,480.445Z" transform="translate(1.894 6)" fill="#66798b"/>
+      <path id="Path_10" data-name="Path 10" d="M682.237,480.545a6.713,6.713,0,0,1-6.692,6.745,6.745,6.745,0,0,1,0-13.489A6.713,6.713,0,0,1,682.237,480.545Z" transform="translate(-50.574 5.953)" fill="#66798b"/>
+    </g>
+  </g>
+</svg>

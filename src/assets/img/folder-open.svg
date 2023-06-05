@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+  <g id="vuesax_bold_folder-open" data-name="vuesax/bold/folder-open" transform="translate(-492 -188)">
+    <g id="folder-open" transform="translate(492 188)">
+      <path id="Vector" d="M46.942,3.675l-.4-.55A8.022,8.022,0,0,0,44.067,1.1,8.521,8.521,0,0,0,39.842,0H8.717A8.59,8.59,0,0,0,4.492,1.1,8.454,8.454,0,0,0,1.917,3.25,8.839,8.839,0,0,0,.042,9.575L.967,21.25c.325,3.525.75,7.875,8.675,7.875h29.3c7.925,0,8.325-4.35,8.675-7.9L48.542,9.6A8.411,8.411,0,0,0,46.942,3.675Zm-16.675,13.8H18.292a1.75,1.75,0,1,1,0-3.5H30.267a1.75,1.75,0,0,1,0,3.5Z" transform="translate(5.708 25.875)" fill="#1383d9"/>
+      <path id="Vector-2" data-name="Vector" d="M43.075,18.65a12.229,12.229,0,0,0-5.95-1.5H5.975A12.463,12.463,0,0,0,0,18.65v-7C0,2.725,2.725,0,11.65,0H14.6c3.575,0,4.7,1.15,6.15,3.025l3,4c.625.85.65.9,1.75.9h5.95C40.075,7.925,42.9,10.475,43.075,18.65Z" transform="translate(8.45 5)" fill="#0958bf"/>
+      <path id="Vector-3" data-name="Vector" d="M0,0H60V60H0Z" transform="translate(60 60) rotate(180)" fill="none" opacity="0"/>
+    </g>
+  </g>
+</svg>

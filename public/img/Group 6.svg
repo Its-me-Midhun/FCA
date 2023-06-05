@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="137.06" height="101.865" viewBox="0 0 137.06 101.865">
+  <defs>
+    <filter id="Rectangle_3" x="18.384" y="9.064" width="96.543" height="91.789" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-color="#264564" flood-opacity="0.149"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_6" data-name="Group 6" transform="translate(-614.293 -363.136)">
+    <circle id="Ellipse_1" data-name="Ellipse 1" cx="50.501" cy="50.501" r="50.501" transform="translate(629.853 363.999)" fill="#e0eaf3" opacity="0.6"/>
+    <g transform="matrix(1, 0, 0, 1, 614.29, 363.14)" filter="url(#Rectangle_3)">
+      <rect id="Rectangle_3-2" data-name="Rectangle 3" width="66.543" height="61.789" rx="2" transform="translate(33.38 21.06)" fill="#fff"/>
+    </g>
+    <rect id="Rectangle_2" data-name="Rectangle 2" width="66.543" height="28.518" rx="2" transform="translate(647.677 384.199)" fill="#1383d9"/>
+    <g id="Group_3" data-name="Group 3" transform="translate(718.379 363.999)">
+      <line id="Line_2" data-name="Line 2" x1="1.188" y2="7.13" fill="none" stroke="#9db0c4" stroke-linecap="round" stroke-width="1.5" opacity="0.5"/>
+      <line id="Line_4" data-name="Line 4" x2="7.13" transform="translate(4.159 11.883)" fill="none" stroke="#9db0c4" stroke-linecap="round" stroke-width="1.5" opacity="0.5"/>
+      <line id="Line_3" data-name="Line 3" y1="6.535" x2="7.119" transform="translate(2.377 2.377)" fill="none" stroke="#9db0c4" stroke-linecap="round" stroke-width="1.5" opacity="0.5"/>
+    </g>
+    <g id="Group_2" data-name="Group 2" transform="translate(615 427.571)">
+      <line id="Line_5" data-name="Line 5" x1="3.565" y2="3.565" fill="none" stroke="#b7c9db" stroke-linecap="round" stroke-width="1"/>
+      <line id="Line_6" data-name="Line 6" x1="3.565" y2="3.565" transform="translate(3.565) rotate(90)" fill="none" stroke="#b7c9db" stroke-linecap="round" stroke-width="1"/>
+    </g>
+    <g id="Ellipse_5" data-name="Ellipse 5" transform="translate(621.535 403.212)" fill="none" stroke="#b7c9db" stroke-width="0.5">
+      <circle cx="1.782" cy="1.782" r="1.782" stroke="none"/>
+      <circle cx="1.782" cy="1.782" r="1.532" fill="none"/>
+    </g>
+    <g id="Ellipse_6" data-name="Ellipse 6" transform="translate(628.962 416.282)" fill="none" stroke="#b7c9db" stroke-width="0.5">
+      <circle cx="1.782" cy="1.782" r="1.782" stroke="none"/>
+      <circle cx="1.782" cy="1.782" r="1.532" fill="none"/>
+    </g>
+    <g id="Ellipse_8" data-name="Ellipse 8" transform="translate(744.223 437.671)" fill="none" stroke="#b7c9db" stroke-width="0.5">
+      <circle cx="1.782" cy="1.782" r="1.782" stroke="none"/>
+      <circle cx="1.782" cy="1.782" r="1.532" fill="none"/>
+    </g>
+    <g id="Ellipse_9" data-name="Ellipse 9" transform="translate(747.788 409.153)" fill="none" stroke="#b7c9db" stroke-width="0.5">
+      <circle cx="1.782" cy="1.782" r="1.782" stroke="none"/>
+      <circle cx="1.782" cy="1.782" r="1.532" fill="none"/>
+    </g>
+    <circle id="Ellipse_7" data-name="Ellipse 7" cx="1.782" cy="1.782" r="1.782" transform="translate(737.094 424.303)" fill="#1383d9"/>
+    <path id="Path_1" data-name="Path 1" d="M948.488-17.36l13.547-13.358,10.085,10.3,16.864-19.912,16.752,22.972Z" transform="translate(-294.29 430.078)" fill="#126eb4"/>
+    <circle id="Ellipse_10" data-name="Ellipse 10" cx="2.971" cy="2.971" r="2.971" transform="translate(655.995 390.141)" fill="#fff"/>
+    <g id="sad-sleepy-emoticon-face-square-svgrepo-com" transform="translate(660.361 403.864)">
+      <path id="Path_2" data-name="Path 2" d="M9.07,19.727a1.159,1.159,0,0,1,1.584-1.693A1.943,1.943,0,0,0,13.338,18a1.159,1.159,0,0,1,1.492-.046,1.122,1.122,0,0,1,.145.137,1.159,1.159,0,0,1-.091,1.637A4.213,4.213,0,0,1,9.07,19.727Zm21.92-1.65a1.159,1.159,0,0,1-.091,1.637,4.213,4.213,0,0,1-5.815,0,1.159,1.159,0,0,1,1.584-1.693,1.943,1.943,0,0,0,2.685-.034,1.159,1.159,0,0,1,1.637.091ZM29.259,30.152a1.157,1.157,0,1,1-2.124.919,7.242,7.242,0,0,0-6.722-4.249,7.181,7.181,0,0,0-6.761,4.247,1.157,1.157,0,1,1-2.137-.888,9.486,9.486,0,0,1,8.9-5.673A9.55,9.55,0,0,1,29.259,30.152Z" fill="#1383d9"/>
+    </g>
+  </g>
+</svg>

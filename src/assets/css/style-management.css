@@ -1,0 +1,229 @@
+/*** all Mobile Screen (iphone 6,7,8) ***/
+/*** mobile Landscape Size ***/
+/*** medium devices (tablets, less than 992px) ***/
+/*** iPad in landscape ***/
+/**** smaller than desktop 1200 (devices and browsers) ***/
+/*** laptop with MDPI (medium density per inch) resolution ***/
+/*** SP developers resolution ***/
+/*** laptop with HiDPI (High Dots Per Inch) resolution ***/
+/*** WSXGA (Wide Super Extended Graphics Array) resolution ***/
+/* placeholder mixin */
+/* how to use this variabile*/
+/* .forms{
+   @include placeholder{
+    opacity: 1;color: #a5aeb7;
+  } */
+/* @include transition (.2s ease-out all); */
+/*    @include flexbox();
+    @include justify-content (center);*/
+.land-manage .file-mlt-up-area {
+  display: flex;
+  flex-wrap: wrap;
+}
+.land-manage .file-mlt-up-area .items {
+  width: calc(100% / 3 - 7px);
+  background-color: #fff;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+.land-manage .file-mlt-up-area .items:last-child {
+  margin-right: 0px;
+}
+.land-manage .file-mlt-up-area .items .heading {
+  padding: 15px;
+  border-bottom: 1px solid #DEE8F1;
+}
+.land-manage .file-mlt-up-area .items .heading h3 {
+  font-weight: 600;
+  line-height: normal;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0px;
+  color: #000000;
+  text-transform: capitalize;
+  margin: 0px !important;
+}
+.land-manage .file-mlt-up-area .items .cnt-area {
+  padding: 15px;
+  display: flex;
+}
+.land-manage .file-mlt-up-area .items .cnt-area .fileupload {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+.land-manage .file-mlt-up-area .items .cnt-area .fileupload .nme {
+  font-weight: 500;
+  line-height: normal;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0px;
+  color: #7D8185;
+  text-transform: capitalize;
+  margin-bottom: 15px;
+  display: block;
+}
+@media (max-width: 1679px) {
+  .land-manage .file-mlt-up-area .items .cnt-area .fileupload .nme {
+    font-size: 13px;
+    margin-bottom: 12px;
+  }
+}
+.land-manage .file-mlt-up-area .items .cnt-area .fileupload .file-area {
+  position: relative;
+  width: 100%;
+  margin-bottom: 15px;
+}
+.land-manage .file-mlt-up-area .items .cnt-area .fileupload .file-area .file-inp {
+  opacity: 0;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+}
+.land-manage .file-mlt-up-area .items .cnt-area .fileupload .file-area .btn-line-land {
+  border: 1px dashed #1383D94D;
+  border-radius: 5px;
+  width: 100%;
+  letter-spacing: 0px;
+  color: #000000;
+  text-transform: capitalize;
+  font-size: 12px;
+  font-family: "Poppins", sans-serif;
+}
+.land-manage .file-mlt-up-area .items .cnt-area .fileupload .file-area .btn-line-land svg {
+  margin-right: 6px;
+}
+.land-manage .file-mlt-up-area .items .cnt-area .fileupload .name-10 {
+  margin-bottom: 10px;
+}
+.land-manage .file-mlt-up-area .items .cnt-area .fileupload .form-group {
+  margin-bottom: 0px;
+}
+.land-manage .file-mlt-up-area .items .cnt-area .fileupload .form-control {
+  background: #EDF2F6;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 0px;
+  outline: none;
+}
+.land-manage .file-mlt-up-area .items .preview-area {
+  padding-left: 10px;
+  width: 170px;
+}
+.land-manage .file-mlt-up-area .items .preview-area .nme {
+  font-weight: 500;
+  line-height: normal;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0px;
+  color: #7D8185;
+  text-transform: capitalize;
+  margin-bottom: 15px;
+  display: block;
+}
+@media (max-width: 1679px) {
+  .land-manage .file-mlt-up-area .items .preview-area .nme {
+    font-size: 13px;
+    margin-bottom: 12px;
+  }
+}
+.land-manage .file-mlt-up-area .items .preview-area .img-area {
+  width: 100%;
+  height: 115px;
+  overflow: hidden;
+  border-radius: 5px;
+}
+.land-manage .file-mlt-up-area .items .preview-area .img-area img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+@media (max-width: 1280px) {
+  .dashboard-outer .outer-detail .right-panel-section .dtl-sec.land-manage .file-mlt-up-area .items .cnt-area {
+    flex-wrap: wrap;
+  }
+  .dashboard-outer .outer-detail .right-panel-section .dtl-sec.land-manage .file-mlt-up-area .items .cnt-area .form-group {
+    margin-bottom: 10px !important;
+  }
+  .dashboard-outer .outer-detail .right-panel-section .dtl-sec.land-manage .file-mlt-up-area .items .preview-area {
+    width: 100% !important;
+    padding-left: 0px;
+  }
+  .dashboard-outer .outer-detail .right-panel-section .dtl-sec.land-manage .file-mlt-up-area .items .preview-area .img-area {
+    height: unset;
+  }
+}
+@media (max-width: 991px) {
+  .dashboard-outer .outer-detail .right-panel-section .dtl-sec.land-manage .file-mlt-up-area .items {
+    width: calc(100% / 2 - 5px);
+    margin-right: 10px;
+  }
+  .dashboard-outer .outer-detail .right-panel-section .dtl-sec.land-manage .file-mlt-up-area .items:nth-child(even) {
+    margin-right: 0px;
+  }
+}
+@media (max-width: 575px) {
+  .dashboard-outer .outer-detail .right-panel-section .dtl-sec.land-manage .file-mlt-up-area .items {
+    width: 100% !important;
+    margin-right: 0px;
+  }
+}
+.land-manage .card-form {
+  background: #fff;
+  border-radius: 5px;
+  padding: 20px 18px 28px;
+  margin-bottom: 10px;
+}
+.land-manage .card-form h3 {
+  font: 600 17px/20px "Poppins", sans-serif;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #dee8f1;
+  padding-bottom: 11px;
+}
+.land-manage .card-form .form-otr {
+  display: flex;
+}
+.land-manage .card-form .form-otr .form-inp {
+  width: 20.66667%;
+}
+.land-manage .card-form .form-otr .form-inp label {
+  color: #7d8185;
+  font: 400 15px/20px "Poppins", sans-serif;
+  margin-bottom: 10px;
+}
+.land-manage .card-form .form-otr .form-inp .form-control {
+  background-color: #edf2f6;
+  padding: 5px 15px;
+  border-radius: 3px;
+  border: none;
+  height: 44px;
+  font: 400 15px/20px "Poppins", sans-serif;
+}
+.land-manage .card-form .container-check {
+  font-size: 15px;
+  margin-top: 40px;
+}
+.land-manage .card-form .checkmark {
+  height: 21px;
+  width: 21px;
+  background-color: #edf2f6;
+}
+.land-manage .card-form .container-check .checkmark:after {
+  left: 8px;
+  top: 3px;
+}
+
+.color-palete {
+  position: absolute;
+  left: 90px;
+  width: 26px;
+  height: 14px;
+  background: #ccc;
+  top: 46px;
+}
+
+/*# sourceMappingURL=style-management.css.map */
